@@ -11,9 +11,7 @@ export function Header() {
                     <span className={styles.blueText}>to</span>
                     <span className={styles.purpleDarkText}>do</span>
                 </span>
-
             </header>
-
         </div>
     )
 }
