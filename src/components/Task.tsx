@@ -6,9 +6,6 @@ import { Trash } from "phosphor-react"
 
 export function Task() {
     return (
-/*         if (Array.length === 0) {
-            return <EmptyTasklist />
-        } else { return */
         <div className={styles.taskBox}>
             <div className={styles.roundCheckbox}>
                 <input type="checkbox"/>

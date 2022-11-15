@@ -1,0 +1,26 @@
+.noTasks {
+    padding: 4rem 1.5rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 0.5rem;
+}
+
+img {
+    max-height: 3.5rem;
+    max-width: 3.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.emptyText {
+    color: var(--gray-300);
+}
+
+.emptyText p:first-child{
+    font-weight: bold;
+}
