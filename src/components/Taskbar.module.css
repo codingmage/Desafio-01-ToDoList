@@ -1,11 +1,12 @@
 .taskbar {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    margin: auto;
     gap: 0.5rem;
     font-size: 1rem;
-
+    width: 46rem;
     margin-top: -1.5rem;
 
 }
@@ -13,12 +14,11 @@
 .taskbar input {
     background-color: var(--gray-500);
     height: 3.375rem;
-    width: 46rem;
+    flex-grow: 1;
     color: var(--gray-100);
     padding: 1rem;
     border: 1px solid var(--gray-700);
     border-radius: 8px;
-
     
 }
 
