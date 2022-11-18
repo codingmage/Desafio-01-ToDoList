@@ -1,19 +1,32 @@
 import { Header } from './components/Header'
-import { Taskbar } from './components/Taskbar'
 import { Tasklist } from './components/Tasklist'
+import { Task, TaskProps } from './components/Task'
 
 import './global.css'
+/* 
+interface Task extends TaskProps {
+  id: string
+} */
+
+/* const tasks: Task[] = [
+  {
+    id: uuidv4(),
+    content: "Lorem ipsumipsum",
+    isComplete: true,
+
+  },
+  {
+    id: uuidv4(),
+    content: "Lorem ipsumipsum",
+    isComplete: false
+  }
+] */
 
 function App() {
 
   return (
     <div>
       <Header />
-
-      <div>
-        <Taskbar />
-      </div>
-
       <main>
         <Tasklist />
       </main>
